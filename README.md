@@ -2,6 +2,8 @@ Social Media Application
 
     This project is a basic social media application built using Laravel. It allows users to register, create posts, follow/unfollow other users, and like/unlike posts. The application also features a user profile page displaying the user's posts, followers, and following count.
 
+    composer create-project laravel/laravel="5.1.*" SocialMediaApp
+
 Features
 
     User Authentication: Users can register, log in, and manage their profiles.

@@ -36,6 +36,11 @@
                                 <button type="submit" class="nav-link btn btn-link">Logout</button>
                             </form>
                         </li>
+                        <li class="nav-item">
+                            <span class="nav-link">
+                                <b> Welcome, {{ auth()->user()->name }}</b>
+                            </span>
+                        </li>
                     @endauth
                     @guest
                         <li class="nav-item">
